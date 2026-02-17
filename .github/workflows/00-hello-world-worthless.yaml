@@ -1,0 +1,8 @@
+name: Similarity Search
+on:
+  workflow_dispatch:
+jobs:
+  similarity-search-inline-bash:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo "Similarity Search from an inline bash script in a GitHub Action Workflow!"
